@@ -1,0 +1,63 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body, html, {
+  margin: 20px;
+  padding: 20px;
+}
+
+body {
+  background-color: #FFFFE0;
+}
+
+h1{
+  font-size: 20vh;
+}
+
+.parentFlex {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.parentFlex div p:first-letter {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.parentFlex div {
+  background-color: #ccc;
+  margin: 16px;
+  padding: 16px;
+}
+
+.parentFlex > div {
+  background-color: #fff;
+}
+
+.parentFlex div > p {
+  text-decoration: none;
+}
+
+p + p {
+  margin-top: 15vh;
+  padding: 5vh;
+}
+
+a, a:visited, a:active {
+  text-decoration: overline;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.image{
+    display: flex;
+    gap: 10vh;
+    background-color: black;
+    flex-direction: column;
